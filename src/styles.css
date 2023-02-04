@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+}
+
+.button-group {
+  right: 0;
+  display: flex;
+  margin-right: auto;
+  margin-left: 0;
+  background-color: lightblue;
+  padding: 0.2rem;
+}
+
+.button-group .buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}
+
+.buttons-hidden {
+  overflow: hidden;
+  visibility: hidden;
+  white-space: nowrap;
+  gap: 10px;
+}
+
+.button-group .buttons-hidden button {
+  margin-left: 10px;
+}
+
+/*
+* NON-ESSENTIALS 
+*/
+
+.prio-1 {
+  background-color: #2cf287;
+}
+
+.button {
+  height: 2rem;
+  min-width: 5rem;
+  padding: 0;
+}
+
+.button-round {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 999px;
+  min-width: initial;
+  margin-left: 10px;
+}
+
+.context {
+  height: 20vh;
+  overflow: hidden;
+  border: 1px gray solid;
+  border-radius: 0.2rem;
+}
